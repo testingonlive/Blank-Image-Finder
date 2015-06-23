@@ -7,3 +7,6 @@ Looks for:
 - background-image CSS attribute being blank. Checks every element on page as well as ```:before``` and ```:after``` on every element
 
 Wtitten in ES6, compiled with browserify and babelify, bookmarklet generated with bookmarklet.
+
+```npm run babel``` complies the code from ES6
+```npm run bookmarklet``` spits out the bookmarklet
