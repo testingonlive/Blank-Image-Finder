@@ -1,0 +1,19 @@
+{
+  "name": "blank-image-checker",
+  "description": "code to try and find image requests where no path has been provided",
+  "version": "0.0.1",
+  "author": {
+    "name": "james wilson"
+  },
+  "dependencies": {
+    "babel": "5.6.4",
+    "babelify": "^6.1.2",
+    "bookmarklet": "0.0.4",
+    "browserify": "^10.2.4",
+    "core-js": "^0.9.18"
+  },
+  "scripts": {
+      "babel": "browserify index.js -t babelify --outfile babel.js",
+      "bookmarklet": "browserify index.js -t babelify | bookmarklet - > bookmarklet.js"
+  }
+}
